@@ -86,6 +86,17 @@
                         <% }); %>
                     </ul>
                 </div>
+                
+                <div class="row">
+                    <div class="col-xs-12 col-md-3">
+                        <h3>Shops</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="/shop">All Shops</a></li>
+                            <% shops.forEach(function(c){ %>
+                                <li class="list-group-item"><a href="/shop/<%= c.slug %>"><%= c.shopname %></a></li>
+                            <% }); %>
+                        </ul>
+                    </div>
                 <div class="col-xs-12 col-md-1"></div>
                 <div class="col-xs-12 col-md-8">
                     

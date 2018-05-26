@@ -20,10 +20,10 @@ var ShopSchema = mongoose.Schema({
       type:String
     },
     products:{
-      type:[CategorySchema]
+      type:String
     },
     categories:{
-    type:[ProductSchema]
+    type:String
     },
     ratings:{
      type:Number

@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var ShopSchema = require('./shop');
 
 // Product Schema
 var ProductSchema = mongoose.Schema({
@@ -24,6 +25,9 @@ var ProductSchema = mongoose.Schema({
     },
     image: {
         type: String
+    },
+    shopname:{
+        type:String
     }
     
 });
