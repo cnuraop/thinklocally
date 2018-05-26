@@ -4,7 +4,7 @@
     
     <% shops.forEach(function(p){ %>
             <div class="col-xs-12 col-md-4 p">
-                <a class="pa" href="/products/<%= p.shopname %>/<%= p.slug %>">
+                <a href="/shop/<%= p.slug %>">
                     <img class="pimage" src="/shop_images/<%= p.shopname %>.jpg" alt="">
                 </a>
                 <h3><%= p.shopname %></h3>

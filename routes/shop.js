@@ -37,7 +37,7 @@ router.get('/:shopname', function (req, res) {
     var shopSlug = req.params.shopname;
 
     Shop.findOne({slug: shopSlug}, function (err, c) {
-        Product.find({shopname: shopSlug}, function (err, products) {
+        Product.find({shopname: c.shopname}, function (err, products) {
             if (err)
                 console.log(err);
 
