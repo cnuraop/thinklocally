@@ -9,8 +9,7 @@ var CategorySchema = mongoose.Schema({
     },
     slug: {
         type: String
-    }
-    
+    }    
 });
 
 var Category = module.exports = mongoose.model('Category', CategorySchema);

@@ -14,6 +14,7 @@ router.get('/', function (req, res) {
             console.log(err);
 
         res.render('index', {
+             
             title: page.title,
             content: page.content
         });
