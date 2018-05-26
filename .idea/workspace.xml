@@ -24,25 +24,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="all_shops.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/all_shops.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/_layouts/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="326">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_products.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all_products.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/all_products.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -53,6 +44,11 @@
       </file>
       <file leaf-file-name="card.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/card.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/_layouts/footer.ejs">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -86,7 +82,7 @@
       <file leaf-file-name="nav_temp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/_layouts/nav_temp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="450">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -152,7 +148,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="486" />
     <option name="y" value="226" />
     <option name="width" value="1345" />
@@ -219,12 +215,6 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="product_images" type="462c0819:PsiDirectoryNode" />
               <item name="598ada43a1089f19845be773" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="shop_images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
@@ -306,12 +296,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10983000" />
+    <option name="totallyTimeSpent" value="10984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -319,16 +309,27 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32910052" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32910052" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" sideWeight="0.5007825" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32910052" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +339,71 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/apples3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/apples4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/apples5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/add_category.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/blueshirt1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/grapes1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/greenshirt1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bananas1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/apples1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/product.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layouts/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cat_products.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/all_products.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/shop_products.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -494,7 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/_layouts/nav_temp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="450">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
@@ -516,20 +582,12 @@
     <entry file="file://$PROJECT_DIR$/public/css/card.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/cat_products.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/all_products.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/cat_products.ejs" />
+    <entry file="file://$PROJECT_DIR$/views/admin/all_products.ejs" />
     <entry file="file://$PROJECT_DIR$/views/_layouts/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        <state relative-caret-position="326">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
