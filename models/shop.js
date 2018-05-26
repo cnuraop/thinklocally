@@ -33,6 +33,9 @@ var ShopSchema = mongoose.Schema({
     },
     description: {
         type: String
+    },
+    deliverytime: {
+        type: Number
     }
         
 });

@@ -42,6 +42,7 @@ router.get('/:shopname', function (req, res) {
                 console.log(err);
 
             res.render('shop_products', {
+                shop:c,
                 title: c.shopname,
                 description: c.description,
                 products: products

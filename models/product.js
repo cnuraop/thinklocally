@@ -28,8 +28,12 @@ var ProductSchema = mongoose.Schema({
     },
     shopname:{
         type:String
+    },
+    deliverytime: {
+        type: Number
     }
-    
+
+
 });
 
 var Product = module.exports = mongoose.model('Product', ProductSchema);

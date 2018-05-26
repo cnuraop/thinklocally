@@ -1,18 +1,32 @@
 <% include _layouts/header %>
 
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Think Locally</h1>
+        <p class="lead">Our idea is to create an e-commerce platform that includes local shops from your community. The idea behind this is to reduce the time it takes for products to be delivered at your doorstep. This service gives you the experience of buying stuff locally while giving you the convenience of your home. The aim is to deliver all the products within 2 hours.</p>
+    </div>
+</div>
 <div class="row products" style="padding-top: 50px">
     
     <% shops.forEach(function(p){ %>
-            <div class="col-xs-12 col-md-4 p">
+            <div class="col-xs-12 col-md-6 p">
+                <div class="card">
                 <a href="/shop/<%= p.slug %>">
-                    <img class="pimage" src="/shop_images/<%= p.shopname %>.jpg" alt="">
+                    <img class="dim-img" src="/shop_images/<%= p.shopname %>.jpg" alt="" style="width: 100%">
                 </a>
+                <div class="text-center" >
                 <h3><%= p.shopname %></h3>
                 <h4><%=p.description%></h4>
-                <a class="vd" href="/shop/<%= p.slug %>">View Details</a>
+                <a class="vd blue-button" href="/shop/<%= p.slug %>">View Details</a>
+                </div>
+                    <div class="text-center card-footer text-muted">(Delivered in <%= p.deliverytime%> mins)</div>
+
+                </div>
             </div>
         <% }); %>
     
 </div>
 
 <% include _layouts/footer %>
+
+
