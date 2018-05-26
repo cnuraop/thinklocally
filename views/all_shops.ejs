@@ -1,14 +1,14 @@
 <% include _layouts/header %>
 
-<div class="row products">
+<div class="row products" style="padding-top: 50px">
     
     <% shops.forEach(function(p){ %>
             <div class="col-xs-12 col-md-4 p">
                 <a class="pa" href="/products/<%= p.shopname %>/<%= p.slug %>">
-                    <img class="pimage" src="/product_images/<%= p.id %>/<%= p.image %>" alt="">
+                    <img class="pimage" src="/shop_images/<%= p.shopname %>.jpg" alt="">
                 </a>
                 <h3><%= p.shopname %></h3>
-                <h4><%=p.address%></h4>
+                <h4><%=p.description%></h4>
                 <a class="vd" href="/shop/<%= p.slug %>">View Details</a>
             </div>
         <% }); %>

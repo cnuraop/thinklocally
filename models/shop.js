@@ -30,6 +30,9 @@ var ShopSchema = mongoose.Schema({
     },
     location:{
     type:[Number]
+    },
+    description: {
+        type: String
     }
         
 });

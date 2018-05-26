@@ -53,17 +53,17 @@ Category.find(function (err, categories) {
     }
 });
 
-// Get Shop Model
-var Shop = require('./models/shop');
-
-// Get all categories to pass to header.ejs
-Shop.find(function (err, shops) {
-    if (err) {
-        console.log(err);
-    } else {
-        app.locals.shops = shops;
-    }
-});
+// // Get Shop Model
+// var Shop = require('./models/shop');
+//
+// // Get all categories to pass to header.ejs
+// Shop.find(function (err, shops) {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         app.locals.shops = shops;
+//     }
+// });
 
 // Express fileUpload middleware
 app.use(fileUpload());

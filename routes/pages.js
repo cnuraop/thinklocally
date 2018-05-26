@@ -3,23 +3,36 @@ var router = express.Router();
 
 // Get Page model
 var Page = require('../models/page');
+var Shop = require('../models/shop')
+
 
 /*
  * GET /
  */
 router.get('/', function (req, res) {
     
-    Page.findOne({slug: 'home'}, function (err, page) {
+    // Page.findOne({slug: 'home'}, function (err, page) {
+    //     if (err)
+    //         console.log(err);
+    //
+    //     res.render('index', {
+    //
+    //         title: page.title,
+    //         content: page.content
+    //     });
+    // });
+
+
+    Shop.find(function (err, shops) {
         if (err)
             console.log(err);
 
-        res.render('index', {
-             
-            title: page.title,
-            content: page.content
+        res.render('all_shops', {
+            title: 'All Shops',
+            shops: shops
         });
     });
-    
+
 });
 
 /*

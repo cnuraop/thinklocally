@@ -10,13 +10,11 @@ var Shop = require('../models/shop');
 // Get Product model
 var Product = require('../models/product');
 
-// Get Category model
-var Category = require('../models/category');
 
 /*
- * GET all products
+ * GET all shops
  */
-router.get('/all', isUser, function (req, res) {
+router.get('/home', isUser, function (req, res) {
 
     Shop.find(function (err, shops) {
         if (err)
@@ -43,46 +41,47 @@ router.get('/:shopname', function (req, res) {
             if (err)
                 console.log(err);
 
-            res.render('cat_products', {
+            res.render('shop_products', {
                 title: c.shopname,
+                description: c.description,
                 products: products
             });
         });
     });
 });
 
-/*
- * GET product details
- */
-router.get('/:category/:product', function (req, res) {
-
-    var galleryImages = null;
-    var loggedIn = (req.isAuthenticated()) ? true : false;
-
-    Product.findOne({slug: req.params.product}, function (err, product) {
-        if (err) {
-            console.log(err);
-        } else {
-            var galleryDir = 'public/product_images/' + product._id + '/gallery';
-
-            fs.readdir(galleryDir, function (err, files) {
-                if (err) {
-                    console.log(err);
-                } else {
-                    galleryImages = files;
-
-                    res.render('product', {
-                        title: product.title,
-                        p: product,
-                        galleryImages: galleryImages,
-                        loggedIn: loggedIn
-                    });
-                }
-            });
-        }
-    });
-
-});
+// /*
+//  * GET product details
+//  */
+// router.get('/:category/:product', function (req, res) {
+//
+//     var galleryImages = null;
+//     var loggedIn = (req.isAuthenticated()) ? true : false;
+//
+//     Product.findOne({slug: req.params.product}, function (err, product) {
+//         if (err) {
+//             console.log(err);
+//         } else {
+//             var galleryDir = 'public/product_images/' + product._id + '/gallery';
+//
+//             fs.readdir(galleryDir, function (err, files) {
+//                 if (err) {
+//                     console.log(err);
+//                 } else {
+//                     galleryImages = files;
+//
+//                     res.render('product', {
+//                         title: product.title,
+//                         p: product,
+//                         galleryImages: galleryImages,
+//                         loggedIn: loggedIn
+//                     });
+//                 }
+//             });
+//         }
+//     });
+//
+// });
 
 // Exports
 module.exports = router;

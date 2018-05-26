@@ -1,4 +1,4 @@
-var mongoose = require('mongoose');
+    var mongoose = require('mongoose');
 var ShopSchema = require('./shop');
 
 // Product Schema
