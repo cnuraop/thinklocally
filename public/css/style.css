@@ -57,3 +57,28 @@ table.alignmiddle td {
     background-color: #f2dede;
     border-color: #ebccd1;
 }
+
+.nav-font {
+
+    font-family: 'Tangerine', serif;
+    font-size: 17px;
+}
+
+.nav-logo {
+
+    margin-top: -115px;
+    margin-left: 50px;
+    height: 260px;
+    width: 300px;
+}
+
+.cats-men {
+
+
+    padding-top: 30px;
+}
+
+.cat-mens-titl {
+
+    font-size: 30px;
+}
