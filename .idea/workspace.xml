@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f2c46d2-88c4-4b33-9dbf-92be05b72e9d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/product_images/59897fa87f013f102ca1c1fa/bananas1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/product_images/59897fa87f013f102ca1c1fa/bananas1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/product_images/598ada0fa1089f19845be771/redshirt1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/product_images/598ada0fa1089f19845be771/redshirt1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/product_images/598ada31a1089f19845be772/greenshirt1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/product_images/598ada31a1089f19845be772/greenshirt1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/product_images/598ada43a1089f19845be773/blueshirt1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/product_images/598ada43a1089f19845be773/blueshirt1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/shop_images/Mandi Fruit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/shop_images/Mandi Fruit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_layouts/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/_layouts/footer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/_layouts/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/_layouts/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/all_products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/all_products.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cat_products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/cat_products.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/all_shops.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/all_shops.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/checkout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/checkout.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop_products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop_products.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,66 +27,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all_shops.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/all_shops.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/_layouts/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="181">
+              <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_products.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/all_products.ejs">
+      <file leaf-file-name="Local Electronics.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/shop_images/Local Electronics.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="shop_products.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/shop_products.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="126">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/card.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="product.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/product.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkout.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/checkout.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/_layouts/footer.ejs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
-              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/nav_styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="145" column="39" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_temp.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/_layouts/nav_temp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="108">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="e#82#88#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +121,8 @@
       <find>htmlx</find>
       <find>css</find>
       <find>shop_</find>
+      <find>logo.</find>
+      <find>toggle na</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,21 +136,22 @@
         <option value="$PROJECT_DIR$/views/shop_products.ejs.js" />
         <option value="$PROJECT_DIR$/routes/pages.js" />
         <option value="$PROJECT_DIR$/routes/shop.js" />
-        <option value="$PROJECT_DIR$/views/shop_products.ejs" />
         <option value="$PROJECT_DIR$/models/product.js" />
         <option value="$PROJECT_DIR$/views/_layouts/nav_temp.html" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/views/all_products.ejs" />
-        <option value="$PROJECT_DIR$/views/all_shops.ejs" />
-        <option value="$PROJECT_DIR$/views/_layouts/header.ejs" />
         <option value="$PROJECT_DIR$/views/admin/all_products.ejs" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/views/_layouts/footer.ejs" />
+        <option value="$PROJECT_DIR$/views/product.ejs" />
+        <option value="$PROJECT_DIR$/views/checkout.ejs" />
+        <option value="$PROJECT_DIR$/views/_layouts/header.ejs" />
+        <option value="$PROJECT_DIR$/views/all_shops.ejs" />
+        <option value="$PROJECT_DIR$/views/shop_products.ejs" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -170,18 +186,7 @@
             <path>
               <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
               <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
-              <item name="dump" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
@@ -200,7 +205,71 @@
               <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09ac7e8e472e60f96a4d69" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09ad0d8e472e60f96a4d6a" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09c2889d526cbdd515412a" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09c2889d526cbdd515412b" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09c2889d526cbdd515412c" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09c2889d526cbdd515412d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09c2889d526cbdd515412e" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="5b09c2889d526cbdd515412f" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
               <item name="598ada0fa1089f19845be771" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="598ada0fa1089f19845be771" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
@@ -219,7 +288,22 @@
             <path>
               <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
               <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="59897fa87f013f102ca1c1fa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="product_images" type="462c0819:PsiDirectoryNode" />
+              <item name="59897fc57f013f102ca1c1fb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="shop_images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
@@ -231,12 +315,6 @@
               <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinklocally" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinklocally" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,11 +331,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/product_images/598980931a2515032808eb4e" />
-      <recent name="$PROJECT_DIR$/public/product_images/59897fc57f013f102ca1c1fb" />
-      <recent name="$PROJECT_DIR$/public/product_images/59897fa87f013f102ca1c1fa" />
-      <recent name="$PROJECT_DIR$/public/product_images/598ada43a1089f19845be773" />
-      <recent name="$PROJECT_DIR$/public/product_images/598ada31a1089f19845be772" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/shop_images" />
+      <recent name="$PROJECT_DIR$/public/product_images/5b09c2889d526cbdd515412f" />
+      <recent name="$PROJECT_DIR$/public/product_images/5b09c2889d526cbdd515412e" />
+      <recent name="$PROJECT_DIR$/public/product_images/5b09c2889d526cbdd515412d" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,44 +370,35 @@
       <updated>1527330980372</updated>
       <workItem from="1527330985190" duration="10009000" />
       <workItem from="1527342960044" duration="974000" />
+      <workItem from="1527388702049" duration="7526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10984000" />
+    <option name="totallyTimeSpent" value="18510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info id="npm" order="2" sideWeight="0.5007825" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
+      <window_info id="npm" order="2" sideWeight="0.5007825" side_tool="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843652" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" sideWeight="0.5007825" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32910052" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,15 +408,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/apples3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/apples4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/apples5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -368,13 +428,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/apples1.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/product.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/_layouts/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
@@ -452,13 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/_layouts/nav_temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layouts/nav_temp.html" />
     <entry file="file://$PROJECT_DIR$/views/all_shops.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -522,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shop_products.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/product_images/598ada31a1089f19845be772/greenshirt1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -544,57 +584,86 @@
     <entry file="file://$PROJECT_DIR$/public/product_images/598ada31a1089f19845be772/gallery/thumbs/greenshirt3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/nav_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="432">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/_layouts/nav_temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/all_shops.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="145" column="39" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layouts/nav_temp.html" />
     <entry file="file://$PROJECT_DIR$/public/css/card.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/cat_products.ejs" />
     <entry file="file://$PROJECT_DIR$/views/admin/all_products.ejs" />
-    <entry file="file://$PROJECT_DIR$/views/_layouts/header.ejs">
+    <entry file="file://$PROJECT_DIR$/views/all_products.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/all_products.ejs">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layouts/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#82#88#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/checkout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/product.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/shop_images/Local Electronics.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layouts/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/all_shops.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shop_products.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>

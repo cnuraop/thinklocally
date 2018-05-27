@@ -5,7 +5,7 @@
     <h1><%= title %></h1>
     <p class="lead"><strong>Address:</strong> <%= shop.address%></p>
     <p><strong>Phone No: </strong> <%=shop.phonenumber%></p>
-    <p><strong>Delivery time: </strong> <%= shop.deliverytime%> Mins</p>
+    <p><strong>Delivery time: </strong> Within <%= shop.deliverytime%> Mins</p>
 </div>
 
 
@@ -55,10 +55,11 @@
             <a class="vd blue-button" href="/products/<%= p.category %>/<%= p.slug %>">View Details</a>
 
         </div>
-            <div class="text-center card-footer text-muted"> (Delivery: <%= shop.deliverytime %> mins)</div>
+            <div class="text-center card-footer text-muted"> (Delivery: Within <%= shop.deliverytime %> mins)</div>
 
         </div>
     </div>
         <% }); %>
 
 </div>
+<% include _layouts/footer %>
